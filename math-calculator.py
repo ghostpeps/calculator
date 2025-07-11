@@ -25,4 +25,8 @@ while opt is not None: #runs until user selects something
     else:
       opt = tH
   elif x == "Circumference of a Circle" or x == "Area of a Circle":
+    if x == "Circumference of a Circle":
+      opt = cC
+    else:
+      opt = cA
     st.image(image="c-removebg-preview.png")
